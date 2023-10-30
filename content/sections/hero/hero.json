@@ -1,0 +1,22 @@
+{
+  "intro": "Kamusta!",
+  "heroPhoto": {
+    "src": "../../images/lego-dummy.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm Jed Lyle Fernandez",
+  "subtitle": {
+    "prefix": "I make ",
+    "highlight": "video games",
+    "suffix": ".🕹️"
+  },
+  "description": "I'm an experienced game developer from the Philippines 🇵🇭 with demonstrated experience in developing video game systems and tools. I also have experience leading cross functional remote teams in the development and testing of games enjoyed by millions of players across the world.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}
