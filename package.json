@@ -1,43 +1,34 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
-  "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "name": "simplefolio",
+  "version": "1.0.1",
+  "private": "true",
+  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "source": "src/index.html",
   "scripts": {
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve"
+    "start": "parcel",
+    "build": "parcel build"
   },
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "dependencies": {
-    "gatsby": "^5.0.1",
-    "gatsby-theme-portfolio-minimal": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "author": "Konstantin Münster <mail@konstantin.digital>",
-  "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-minimal-theme",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
+    "url": "git+https://github.com/cobiwave/simplefolio"
   },
+  "keywords": [],
+  "author": "Jacobo Martinez",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+    "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "keywords": [
-    "react",
-    "gatsby",
-    "gatsby-theme",
-    "PWA",
-    "portfolio",
-    "showcase",
-    "minimal",
-    "animations",
-    "dark-mode",
-    "gdpr-compliant"
-  ]
+  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.6.3",
+    "popper.js": "^1.16.1",
+    "vanilla-tilt": "^1.8.0"
+  }
 }
